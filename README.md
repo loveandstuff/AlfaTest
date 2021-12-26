@@ -31,4 +31,4 @@ ___
 ### Получение образа из DockerHub
 + docker pull koryagindp/alfatest:v1
 ### Запуск 
-+ docker run -it —name test -p 8080:8080 koryagindp/alfatest:v1
++ docker run -it --name test -p 8080:8080 koryagindp/alfatest:v1
