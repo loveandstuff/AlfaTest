@@ -27,7 +27,7 @@ ___
 ## Docker
 ### Создание образа Docker
 выполняется в корневой папке проекта
-+ docker build -t koryagindp/alfatest:v1 
++ docker build -t koryagindp/alfatest:v1 .
 ### Получение образа из DockerHub
 + docker pull koryagindp/alfatest:v1
 ### Запуск 
