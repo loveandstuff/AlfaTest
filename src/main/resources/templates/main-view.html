@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+<img class = "myClass">
+<script th:inline="javascript">
+    const img = document.querySelector(".myClass")
+    var myval = /*[[${myGif}]]*/
+        img.src = myval
+</script>
+</body>
+</html>
