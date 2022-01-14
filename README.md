@@ -17,9 +17,9 @@ Nice to Have
 + Сборка и запуск Docker контейнера с этим сервисом
 ___
 # Endpoints
-GET /api/gis/{currency}
+GET /api/gifs/{currency}
 где currency - код валюты, изменение которой рассматривается
-вывод gif доступен по http://localhost:8080/api/gifs/RUB
+вывод gif доступен по ссылке  http://localhost:8080/api/gifs/RUB
 ___
 # Сборка проекта
 ## Запуск .jar
